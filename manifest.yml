@@ -1,7 +1,8 @@
 ---
 applications:
-- name: pcfdemo
-  memory: 512M 
+- name: pcf-stream
+  memory: 768M 
   instances: 1
-  host: pcfdemo-yourname
+  routes:
+  - route: 
   path: ./target/pcfdemo.war
